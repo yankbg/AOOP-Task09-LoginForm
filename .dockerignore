@@ -6,3 +6,5 @@ build/
 *.log
 target/
 node_modules/
+.DS_Store
+terraform/
