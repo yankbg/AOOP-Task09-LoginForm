@@ -1,6 +1,6 @@
 # Use OpenJDK 17 as base image
 #FROM openjdk:17
-FROM --platform=linux/amd64 openjdk:17-jdk-slim
+FROM mcr.microsoft.com/openjdk/jdk:17-ubuntu
 
 # Set working directory
 WORKDIR /app
