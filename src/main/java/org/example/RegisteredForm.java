@@ -72,6 +72,7 @@ public class RegisteredForm {
         return FirstnameLab;
     }
 
+
     // The implementation of the JTextField of the Firstname
     public JTextField Firstname() {
         Firstname = new JTextField();
@@ -179,6 +180,7 @@ public class RegisteredForm {
                     String address = Email_Address.getText().trim();
                     String gender = String.valueOf(Gender.getSelectedItem());
                     String birth = String.valueOf(DateOfBirth.getDate());
+
 
                     //The verification logic of the input
                     if (firstname.isEmpty() || lastname.isEmpty() || username.isEmpty()
